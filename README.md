@@ -20,7 +20,6 @@ Augur is an AI-powered tool that automatically generates incident post-mortem re
 - **Google Gemini Pro**: Advanced language model for analysis
 - **Typer**: Modern CLI framework
 - **python-dotenv**: Environment variable management
-- **Vercel**: Deployment platform
 
 ## Installation
 
@@ -113,7 +112,24 @@ This will:
 
 ## Deployment
 
-### Google Cloud Run (Recommended)
+### Streamlit Community Cloud (Recommended)
+
+Deploy your Streamlit app to Streamlit Community Cloud for easy, free hosting:
+
+1. **Push to GitHub**: Ensure your code is in a GitHub repository
+2. **Go to [share.streamlit.io](https://share.streamlit.io)**: Sign in with GitHub
+3. **Create New App**:
+   - Repository: Select your `augur` repository
+   - Branch: `main`
+   - Main file path: `app.py`
+   - App URL: Choose a custom subdomain (optional)
+4. **Set Environment Variables**: In the app settings, add your Google API key:
+   ```toml
+   GOOGLE_API_KEY = "your_actual_api_key_here"
+   ```
+5. **Deploy**: Click "Deploy" and get your public HTTPS URL!
+
+### Google Cloud Run
 
 Deploy your Streamlit app to Google Cloud Run for scalable, production-ready hosting:
 
@@ -143,16 +159,6 @@ Deploy your Streamlit app to Google Cloud Run for scalable, production-ready hos
 
 4. **Access your app** at the provided HTTPS URL!
 
-### Vercel Deployment
-
-The project is configured for easy deployment to Vercel:
-
-1. **Push to GitHub**: Ensure your code is in a GitHub repository
-2. **Connect to Vercel**: Import your repository in Vercel
-3. **Deploy**: Vercel will automatically detect the Streamlit app and deploy it
-
-The `vercel.json` file contains the necessary configuration for deploying the Streamlit application.
-
 ## Project Structure
 
 ```
@@ -170,8 +176,8 @@ The `vercel.json` file contains the necessary configuration for deploying the St
 │   ├── analyzer.py         # AI analyzer implementation
 │   └── main.py            # CLI interface
 ├── app.py                  # Streamlit web application
-├── vercel.json            # Vercel deployment configuration
-├── .env                    # Environment variables
+├── Dockerfile             # Docker configuration for deployment
+├── .env.example           # Environment variables template
 ├── requirements.txt        # Python dependencies
 └── README.md              # This file
 ```
