@@ -1,0 +1,23 @@
+{"timestamp": "2024-01-15T13:00:00", "level": "INFO", "service": "auth-service", "message": "Service operating normally", "memory_usage": 45, "cpu_usage": 30}
+{"timestamp": "2024-01-15T13:15:00", "level": "INFO", "service": "auth-service", "message": "Service operating normally", "memory_usage": 60, "cpu_usage": 30}
+{"timestamp": "2024-01-15T13:30:00", "level": "INFO", "service": "auth-service", "message": "Service operating normally", "memory_usage": 55, "cpu_usage": 30}
+{"timestamp": "2024-01-15T13:45:00", "level": "INFO", "service": "auth-service", "message": "Service operating normally", "memory_usage": 50, "cpu_usage": 30}
+{"timestamp": "2024-01-15T14:00:00", "level": "INFO", "service": "auth-service", "message": "Service operating normally", "memory_usage": 45, "cpu_usage": 30}
+{"timestamp": "2024-01-15T14:05:00", "level": "WARN", "service": "auth-service", "message": "Memory usage high: 90%", "memory_usage": 90, "cpu_usage": 80}
+{"timestamp": "2024-01-15T14:10:00", "level": "WARN", "service": "auth-service", "message": "Memory usage high: 95%", "memory_usage": 95, "cpu_usage": 85}
+{"timestamp": "2024-01-15T14:10:00", "level": "ERROR", "service": "auth-service", "message": "Critical memory pressure, restarting", "memory_usage": 95, "cpu_usage": 90}
+{"timestamp": "2024-01-15T14:15:00", "level": "WARN", "service": "auth-service", "message": "Memory usage high: 100%", "memory_usage": 100, "cpu_usage": 90}
+{"timestamp": "2024-01-15T14:20:00", "level": "WARN", "service": "auth-service", "message": "Memory usage high: 105%", "memory_usage": 105, "cpu_usage": 75}
+{"timestamp": "2024-01-15T14:20:00", "level": "ERROR", "service": "auth-service", "message": "Critical memory pressure, restarting", "memory_usage": 95, "cpu_usage": 90}
+{"timestamp": "2024-01-15T14:25:00", "level": "WARN", "service": "auth-service", "message": "Memory usage high: 110%", "memory_usage": 110, "cpu_usage": 80}
+{"timestamp": "2024-01-15T14:30:00", "level": "WARN", "service": "auth-service", "message": "Memory usage high: 85%", "memory_usage": 85, "cpu_usage": 85}
+{"timestamp": "2024-01-15T14:30:00", "level": "ERROR", "service": "auth-service", "message": "Critical memory pressure, restarting", "memory_usage": 95, "cpu_usage": 90}
+{"timestamp": "2024-01-15T14:35:00", "level": "WARN", "service": "auth-service", "message": "Memory usage high: 90%", "memory_usage": 90, "cpu_usage": 90}
+{"timestamp": "2024-01-15T14:40:00", "level": "WARN", "service": "auth-service", "message": "Memory usage high: 95%", "memory_usage": 95, "cpu_usage": 75}
+{"timestamp": "2024-01-15T14:40:00", "level": "ERROR", "service": "auth-service", "message": "Critical memory pressure, restarting", "memory_usage": 95, "cpu_usage": 90}
+{"timestamp": "2024-01-15T14:45:00", "level": "WARN", "service": "auth-service", "message": "Memory usage high: 100%", "memory_usage": 100, "cpu_usage": 80}
+{"timestamp": "2024-01-15T15:00:00", "level": "INFO", "service": "auth-service", "message": "Service operating normally", "memory_usage": 45, "cpu_usage": 30}
+{"timestamp": "2024-01-15T15:15:00", "level": "INFO", "service": "auth-service", "message": "Service operating normally", "memory_usage": 60, "cpu_usage": 30}
+{"timestamp": "2024-01-15T15:30:00", "level": "INFO", "service": "auth-service", "message": "Service operating normally", "memory_usage": 55, "cpu_usage": 30}
+{"timestamp": "2024-01-15T15:45:00", "level": "INFO", "service": "auth-service", "message": "Service operating normally", "memory_usage": 50, "cpu_usage": 30}
+{"timestamp": "2024-01-15T16:00:00", "level": "INFO", "service": "auth-service", "message": "Service operating normally", "memory_usage": 45, "cpu_usage": 30}

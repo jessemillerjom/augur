@@ -1,0 +1,44 @@
+{"timestamp": "2024-01-15T13:00:00", "level": "INFO", "service": "products-api", "message": "Service operating normally", "http_status": 200, "response_time": 150, "request_rate": 50}
+{"timestamp": "2024-01-15T13:10:00", "level": "INFO", "service": "products-api", "message": "Service operating normally", "http_status": 200, "response_time": 160, "request_rate": 60}
+{"timestamp": "2024-01-15T13:20:00", "level": "INFO", "service": "products-api", "message": "Service operating normally", "http_status": 200, "response_time": 170, "request_rate": 50}
+{"timestamp": "2024-01-15T13:30:00", "level": "INFO", "service": "products-api", "message": "Service operating normally", "http_status": 200, "response_time": 180, "request_rate": 60}
+{"timestamp": "2024-01-15T13:40:00", "level": "INFO", "service": "products-api", "message": "Service operating normally", "http_status": 200, "response_time": 190, "request_rate": 50}
+{"timestamp": "2024-01-15T13:50:00", "level": "INFO", "service": "products-api", "message": "Service operating normally", "http_status": 200, "response_time": 150, "request_rate": 60}
+{"timestamp": "2024-01-15T14:00:00", "level": "INFO", "service": "products-api", "message": "Service operating normally", "http_status": 200, "response_time": 150, "request_rate": 50}
+{"timestamp": "2024-01-15T14:10:00", "level": "ERROR", "service": "products-api", "message": "DB connection pool exhausted. Cannot serve request.", "http_status": 503, "db_connections": 100, "response_time": 30000}
+{"timestamp": "2024-01-15T14:10:00", "level": "WARN", "service": "products-api", "message": "High request volume: 2000 requests/min", "request_rate": 2000, "cpu_usage": 55}
+{"timestamp": "2024-01-15T14:12:00", "level": "ERROR", "service": "products-api", "message": "DB connection pool exhausted. Cannot serve request.", "http_status": 503, "db_connections": 100, "response_time": 30000}
+{"timestamp": "2024-01-15T14:14:00", "level": "ERROR", "service": "products-api", "message": "DB connection pool exhausted. Cannot serve request.", "http_status": 503, "db_connections": 100, "response_time": 30000}
+{"timestamp": "2024-01-15T14:15:00", "level": "WARN", "service": "products-api", "message": "High request volume: 2500 requests/min", "request_rate": 2500, "cpu_usage": 45}
+{"timestamp": "2024-01-15T14:16:00", "level": "ERROR", "service": "products-api", "message": "DB connection pool exhausted. Cannot serve request.", "http_status": 503, "db_connections": 100, "response_time": 30000}
+{"timestamp": "2024-01-15T14:18:00", "level": "ERROR", "service": "products-api", "message": "DB connection pool exhausted. Cannot serve request.", "http_status": 503, "db_connections": 100, "response_time": 30000}
+{"timestamp": "2024-01-15T14:20:00", "level": "ERROR", "service": "products-api", "message": "DB connection pool exhausted. Cannot serve request.", "http_status": 503, "db_connections": 100, "response_time": 30000}
+{"timestamp": "2024-01-15T14:20:00", "level": "WARN", "service": "products-api", "message": "High request volume: 3000 requests/min", "request_rate": 3000, "cpu_usage": 50}
+{"timestamp": "2024-01-15T14:22:00", "level": "ERROR", "service": "products-api", "message": "DB connection pool exhausted. Cannot serve request.", "http_status": 503, "db_connections": 100, "response_time": 30000}
+{"timestamp": "2024-01-15T14:24:00", "level": "ERROR", "service": "products-api", "message": "DB connection pool exhausted. Cannot serve request.", "http_status": 503, "db_connections": 100, "response_time": 30000}
+{"timestamp": "2024-01-15T14:25:00", "level": "WARN", "service": "products-api", "message": "High request volume: 3500 requests/min", "request_rate": 3500, "cpu_usage": 55}
+{"timestamp": "2024-01-15T14:26:00", "level": "ERROR", "service": "products-api", "message": "DB connection pool exhausted. Cannot serve request.", "http_status": 503, "db_connections": 100, "response_time": 30000}
+{"timestamp": "2024-01-15T14:28:00", "level": "ERROR", "service": "products-api", "message": "DB connection pool exhausted. Cannot serve request.", "http_status": 503, "db_connections": 100, "response_time": 30000}
+{"timestamp": "2024-01-15T14:30:00", "level": "ERROR", "service": "products-api", "message": "DB connection pool exhausted. Cannot serve request.", "http_status": 503, "db_connections": 100, "response_time": 30000}
+{"timestamp": "2024-01-15T14:30:00", "level": "WARN", "service": "products-api", "message": "High request volume: 4000 requests/min", "request_rate": 4000, "cpu_usage": 45}
+{"timestamp": "2024-01-15T14:32:00", "level": "ERROR", "service": "products-api", "message": "DB connection pool exhausted. Cannot serve request.", "http_status": 503, "db_connections": 100, "response_time": 30000}
+{"timestamp": "2024-01-15T14:34:00", "level": "ERROR", "service": "products-api", "message": "DB connection pool exhausted. Cannot serve request.", "http_status": 503, "db_connections": 100, "response_time": 30000}
+{"timestamp": "2024-01-15T14:35:00", "level": "WARN", "service": "products-api", "message": "High request volume: 4500 requests/min", "request_rate": 4500, "cpu_usage": 50}
+{"timestamp": "2024-01-15T14:36:00", "level": "ERROR", "service": "products-api", "message": "DB connection pool exhausted. Cannot serve request.", "http_status": 503, "db_connections": 100, "response_time": 30000}
+{"timestamp": "2024-01-15T14:38:00", "level": "ERROR", "service": "products-api", "message": "DB connection pool exhausted. Cannot serve request.", "http_status": 503, "db_connections": 100, "response_time": 30000}
+{"timestamp": "2024-01-15T14:40:00", "level": "ERROR", "service": "products-api", "message": "DB connection pool exhausted. Cannot serve request.", "http_status": 503, "db_connections": 100, "response_time": 30000}
+{"timestamp": "2024-01-15T14:40:00", "level": "WARN", "service": "products-api", "message": "High request volume: 5000 requests/min", "request_rate": 5000, "cpu_usage": 55}
+{"timestamp": "2024-01-15T14:42:00", "level": "ERROR", "service": "products-api", "message": "DB connection pool exhausted. Cannot serve request.", "http_status": 503, "db_connections": 100, "response_time": 30000}
+{"timestamp": "2024-01-15T14:44:00", "level": "ERROR", "service": "products-api", "message": "DB connection pool exhausted. Cannot serve request.", "http_status": 503, "db_connections": 100, "response_time": 30000}
+{"timestamp": "2024-01-15T14:45:00", "level": "WARN", "service": "products-api", "message": "High request volume: 5500 requests/min", "request_rate": 5500, "cpu_usage": 45}
+{"timestamp": "2024-01-15T14:46:00", "level": "ERROR", "service": "products-api", "message": "DB connection pool exhausted. Cannot serve request.", "http_status": 503, "db_connections": 100, "response_time": 30000}
+{"timestamp": "2024-01-15T14:48:00", "level": "ERROR", "service": "products-api", "message": "DB connection pool exhausted. Cannot serve request.", "http_status": 503, "db_connections": 100, "response_time": 30000}
+{"timestamp": "2024-01-15T14:50:00", "level": "ERROR", "service": "products-api", "message": "DB connection pool exhausted. Cannot serve request.", "http_status": 503, "db_connections": 100, "response_time": 30000}
+{"timestamp": "2024-01-15T14:50:00", "level": "WARN", "service": "products-api", "message": "High request volume: 6000 requests/min", "request_rate": 6000, "cpu_usage": 50}
+{"timestamp": "2024-01-15T15:00:00", "level": "INFO", "service": "products-api", "message": "Service operating normally", "http_status": 200, "response_time": 150, "request_rate": 50}
+{"timestamp": "2024-01-15T15:10:00", "level": "INFO", "service": "products-api", "message": "Service operating normally", "http_status": 200, "response_time": 160, "request_rate": 60}
+{"timestamp": "2024-01-15T15:20:00", "level": "INFO", "service": "products-api", "message": "Service operating normally", "http_status": 200, "response_time": 170, "request_rate": 50}
+{"timestamp": "2024-01-15T15:30:00", "level": "INFO", "service": "products-api", "message": "Service operating normally", "http_status": 200, "response_time": 180, "request_rate": 60}
+{"timestamp": "2024-01-15T15:40:00", "level": "INFO", "service": "products-api", "message": "Service operating normally", "http_status": 200, "response_time": 190, "request_rate": 50}
+{"timestamp": "2024-01-15T15:50:00", "level": "INFO", "service": "products-api", "message": "Service operating normally", "http_status": 200, "response_time": 150, "request_rate": 60}
+{"timestamp": "2024-01-15T16:00:00", "level": "INFO", "service": "products-api", "message": "Service operating normally", "http_status": 200, "response_time": 150, "request_rate": 50}

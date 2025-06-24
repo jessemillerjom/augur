@@ -1,0 +1,8 @@
+streamlit
+python-dotenv
+langchain
+langchain-google-genai
+typer
+pandas
+langchain-community
+pyperclip 
