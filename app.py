@@ -772,6 +772,7 @@ st.markdown(
     <div style='text-align: center; color: #6c757d;'>
         <p>🔮 Augur - AI-Powered Incident Analysis | Built with Streamlit & LangChain</p>
         <p>For educational and demonstration purposes. Always validate AI-generated reports.</p>
+        <p><a href="https://github.com/jessemillerjom/augur" target="_blank" style="color: #6c757d; text-decoration: none;">📁 View on GitHub</a></p>
     </div>
     """,
     unsafe_allow_html=True
