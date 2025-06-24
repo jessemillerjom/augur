@@ -216,19 +216,42 @@ The AI-generated post-mortem reports include:
 
 ## Example Scenarios
 
-The demo generates data for realistic incident scenarios:
+The demo generates data for realistic incident scenarios of varying complexity:
 
-### Bad Deploy Scenario
+### 1. Bad Deploy Scenario (Simple)
 - **14:05**: Bad deploy to auth-service causes memory leak
 - **14:05-14:45**: Auth service becomes unresponsive, causing downstream failures
 - **14:45**: Deploy is rolled back, services recover
 - **Impact**: Products API and checkout service experience high error rates
+- **Complexity**: Simple memory leak with clear cause-effect relationship
 
-### Database Overload Scenario
-- **16:30**: Database connection pool gets exhausted
-- **16:30-17:15**: High latency and timeouts across multiple services
-- **17:15**: Database issues resolved
+### 2. Thundering Herd Scenario (Medium)
+- **14:10**: Traffic spike overwhelms database connection pool
+- **14:10-14:50**: High latency and timeouts across multiple services
+- **14:50**: Connection pool issues resolved
 - **Impact**: User, order, and payment services affected
+- **Complexity**: Resource exhaustion with cascading effects
+
+### 3. Silent Cache Killer Scenario (High)
+- **15:00**: Cache eviction policy changes cause slow performance degradation
+- **15:00-16:30**: Gradual increase in response times and database load
+- **16:30**: Cache configuration reverted
+- **Impact**: Subtle performance degradation affecting user experience
+- **Complexity**: Configuration change with delayed, subtle effects
+
+### 4. Retry Storm Cascade Scenario (Very High)
+- **14:15**: Payment gateway failures trigger retry storm
+- **14:15-14:55**: Cascading failures through auth service and checkout
+- **14:55**: Payment gateway recovers, cascade resolves
+- **Impact**: Complete checkout service failure, revenue impact
+- **Complexity**: Complex cascade with multiple failure modes
+
+### 5. Phantom DNS Scenario (Very High)
+- **14:00**: Intermittent DNS resolution issues for shipping API
+- **14:00-16:00**: Scattered checkout failures with normal system metrics
+- **16:00**: DNS issues resolved
+- **Impact**: Business metric degradation despite normal technical metrics
+- **Complexity**: Subtle, intermittent issues requiring business context
 
 ## Contributing
 
@@ -241,13 +264,6 @@ The demo generates data for realistic incident scenarios:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-If you encounter any issues or have questions:
-1. Check the existing issues
-2. Create a new issue with detailed information
-3. Include your Python version and error messages
 
 ---
 
