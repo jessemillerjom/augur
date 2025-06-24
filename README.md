@@ -42,7 +42,11 @@ Augur is an AI-powered tool that automatically generates incident post-mortem re
    ```
 
 4. **Set up your API key**
-   - Get your Google API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
+   - Get your Google API key from [Google AI Studio](https://aistudio.google.com/app/apikey)
+   - Copy `.env.example` to `.env`:
+     ```bash
+     cp .env.example .env
+     ```
    - Update the `.env` file with your API key:
      ```
      GOOGLE_API_KEY="your_actual_api_key_here"
@@ -108,6 +112,36 @@ This will:
 5. Save it as `post_mortem_report.md` in the incident directory
 
 ## Deployment
+
+### Google Cloud Run (Recommended)
+
+Deploy your Streamlit app to Google Cloud Run for scalable, production-ready hosting:
+
+1. **Install Google Cloud SDK** and authenticate:
+   ```bash
+   gcloud auth login
+   gcloud config set project YOUR_PROJECT_ID
+   ```
+
+2. **Build and deploy**:
+   ```bash
+   # Build the container and push to Google Artifact Registry
+   gcloud builds submit --tag gcr.io/YOUR_PROJECT_ID/augur
+   
+   # Deploy to Cloud Run
+   gcloud run deploy augur \
+     --image gcr.io/YOUR_PROJECT_ID/augur \
+     --platform managed \
+     --region us-central1 \
+     --allow-unauthenticated
+   ```
+
+3. **Set environment variables** (API keys):
+   ```bash
+   gcloud run services update augur --update-env-vars "GOOGLE_API_KEY=your-key-here"
+   ```
+
+4. **Access your app** at the provided HTTPS URL!
 
 ### Vercel Deployment
 
